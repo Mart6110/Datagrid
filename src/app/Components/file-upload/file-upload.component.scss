@@ -1,0 +1,31 @@
+.upload-container {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  gap: 1rem;
+  flex-direction: column;
+
+  button {
+    margin-right: 16px; // Adjust as needed
+  }
+
+  input[type="file"] {
+    position: absolute;
+    top: -1000px;
+  }
+
+  .custom-file-input {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .custom-file-input:hover {
+    background-color: #0e7ae6;
+  }
+}

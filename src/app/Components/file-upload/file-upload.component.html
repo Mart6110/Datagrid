@@ -1,0 +1,12 @@
+<form>
+    <div class="upload-container">
+        <input type="file" #fileInput style="display: none;" (change)="onFileSelected($event)" accept="image/*">
+        <label for="fileInput" class="custom-file-input" (click)="fileInput.click()">
+            <mat-icon>attach_file</mat-icon> Choose File
+        </label>
+        <span>{{ selectedFile ? selectedFile.name : 'No file selected' }}</span>
+        <button mat-raised-button color="accent" (click)="uploadFile($event)">
+            <mat-icon>cloud_upload</mat-icon> Upload
+        </button>
+    </div>
+</form>
