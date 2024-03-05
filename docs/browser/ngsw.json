@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1709636248532,
+  "index": "/Datagrid/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Datagrid/chunk-EAPIMFVQ.js",
+        "/Datagrid/chunk-SOPAB4I4.js",
+        "/Datagrid/favicon.ico",
+        "/Datagrid/index.html",
+        "/Datagrid/main-6ESNVFH6.js",
+        "/Datagrid/manifest.webmanifest",
+        "/Datagrid/polyfills-RT5I6R6G.js",
+        "/Datagrid/styles-7BZSST5S.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Datagrid/assets/icons/icon-128x128.png",
+        "/Datagrid/assets/icons/icon-144x144.png",
+        "/Datagrid/assets/icons/icon-152x152.png",
+        "/Datagrid/assets/icons/icon-192x192.png",
+        "/Datagrid/assets/icons/icon-384x384.png",
+        "/Datagrid/assets/icons/icon-512x512.png",
+        "/Datagrid/assets/icons/icon-72x72.png",
+        "/Datagrid/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Datagrid/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/Datagrid/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/Datagrid/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/Datagrid/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/Datagrid/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/Datagrid/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/Datagrid/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/Datagrid/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/Datagrid/chunk-EAPIMFVQ.js": "fbd8270a481d49c29f005c80f6387159796aff23",
+    "/Datagrid/chunk-SOPAB4I4.js": "f53fa8bc58b4ad0a697ee58a6a666e55f9c207db",
+    "/Datagrid/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/Datagrid/index.html": "a8054fa7f2b703fea971a2a1be631b6d2789f571",
+    "/Datagrid/main-6ESNVFH6.js": "003700ec0d5b1254c5458587b4d72017298fbd1b",
+    "/Datagrid/manifest.webmanifest": "63004d93f04e0a680fcd848504adf6b6a20207eb",
+    "/Datagrid/polyfills-RT5I6R6G.js": "fe9f024576f21ff6314cf8f8332cde58b9a12416",
+    "/Datagrid/styles-7BZSST5S.css": "230f3d371679a8b25d375d1c1545ef2928c86ff0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
